@@ -68,8 +68,6 @@ body {
   height: 200px;
   margin: 2em;
   cursor: pointer;
-  background-color: hsla(0, 0%, 95%, 1);
-  border: 1px solid #094AB2;
   overflow: hidden;
   position: relative;
 }
@@ -93,6 +91,7 @@ body {
   background-image: url(img/folder.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: top;
   color: black;
 }
 
