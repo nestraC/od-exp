@@ -64,9 +64,9 @@ body {
 
 .item {
   display: inline-block;
-  width: 200px;
-  height: 200px;
-  margin: 2em;
+  width: 12em;
+  height: 12em;
+  margin: 1em 2em 4em;
   cursor: pointer;
   overflow: hidden;
   position: relative;
@@ -78,12 +78,11 @@ body {
     text-align: center;
     padding: 1px;
     position: absolute;
-    bottom: 2px;
-    left:  4px;
+    top: 110%;
+    left:  0;
     white-space: nowrap;
-    padding-right: 4px;
     overflow:  hidden;
-    right:  4px;
+    right:  0;
 }
 
 .folder {
